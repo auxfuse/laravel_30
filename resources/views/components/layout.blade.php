@@ -24,7 +24,7 @@
                                 <a href="/about" class="{{ request()->is('about') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} hover:text-white rounded-md px-3 py-2 text-sm font-medium">About</a>
                                 <a href="/contact" class="{{ request()->is('contact') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white' }} hover:text-white rounded-md px-3 py-2 text-sm font-medium">Contact</a> -->
                                 <x-nav-link href='/' :active="request()->is('/')">Home</x-nav-link>
-                                <x-nav-link href='/about' :active="request()->is('about')">About</x-nav-link>
+                                <x-nav-link href='/jobs' :active="request()->is('jobs')">Jobs</x-nav-link>
                                 <x-nav-link href='/contact' :active="request()->is('contact')">Contact</x-nav-link>
                             </div>
                         </div>
